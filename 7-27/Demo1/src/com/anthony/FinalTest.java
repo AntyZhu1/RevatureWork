@@ -9,9 +9,9 @@ final class Second extends First {
 	
 }
 
-class Third extends Second {
-	
-}
+//class Third extends Second {
+//	
+//}
 
 
 

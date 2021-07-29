@@ -2,7 +2,6 @@ package com.anthony;
 
 import java.util.Collections;
 
-
 import java.util.AbstractCollection;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -116,6 +115,36 @@ public class CollectionsPractice {
 		System.out.println(colors);
 		Collections.swap(colors, 0, 5);
 		System.out.println(colors);
+		System.out.println("");
+		
+		//Write a Java program to associate the specified value with the specified key in a HashMap.
+		HashMap<Integer, String> colorHashMap = new HashMap<>();
+		colorHashMap.put(1, "Red");
+		
+
+		//Write a Java program to count the number of key-value (size) mappings in a map.
+		colorHashMap.put(2, "Orange");
+		colorHashMap.put(3, "Yellow");
+		colorHashMap.put(4, "Green");
+		colorHashMap.put(5, "Blue");
+		colorHashMap.put(6, "Indigo");
+		colorHashMap.put(7, "Violet");
+		
+		System.out.println("Hashmap Size: " + colorHashMap.size());
+		
+		System.out.println("");
+
+		//Write a Java program to copy all of the mappings from the specified map to another map.
+		HashMap<Integer,String> colorHMClone = (HashMap<Integer, String>) colorHashMap.clone();
+		
+		//adding color to differentiate
+		colorHMClone.put(8, "White");
+		
+		System.out.println("Original :" + colorHashMap);
+		System.out.println("Clone :" + colorHMClone);
+		
+
+		
 	}
 
 }

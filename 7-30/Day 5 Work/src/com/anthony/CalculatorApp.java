@@ -70,7 +70,11 @@ public class CalculatorApp {
 				numbers.close();
 				finished = true;
 				break;
+				
 			default:
+				System.out.println("");
+				System.out.println("Error, invalid option");
+				printHelp();
 				break;
 			}
 			

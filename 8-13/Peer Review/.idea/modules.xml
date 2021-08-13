@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/First_Basic_Project/First_Basic_Project.iml" filepath="$PROJECT_DIR$/First_Basic_Project/First_Basic_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaFullStack.iml" filepath="$PROJECT_DIR$/.idea/JavaFullStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/Project0.iml" filepath="$PROJECT_DIR$/Projects/Project0/Project0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/build/build.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/build/build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/build/build1.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/build/build1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/core-api/core-api.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/core-api/core-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/core-api/core-api1.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/core-api/core-api1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/core-impl/core-impl.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/core-impl/core-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/core-impl/core-impl1.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/core-impl/core-impl1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/demo/demo.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/demo/demo1.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/demo/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/generated/generated.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/generated/generated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/generated/generated1.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/generated/generated1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/java-jdbc-demo.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/java-jdbc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/legacy/legacy.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/legacy/legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/legacy/legacy1.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/legacy/legacy1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/protocol-impl/protocol-impl.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/protocol-impl/protocol-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/protocol-impl/protocol-impl1.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/protocol-impl/protocol-impl1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/test/test.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/test/test1.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/user-api/user-api.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/user-api/user-api1.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/user-api/user-api1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/user-impl/user-impl.iml" filepath="$PROJECT_DIR$/java-jdbc-demo/libs/mysql-connector-java-8.0.26/src/main/user-impl/user-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/user-impl/user-impl1.iml" filepath="$PROJECT_DIR$/Projects/Project0/libs/mysql-connector-java-8.0.26/src/main/user-impl/user-impl1.iml" />
+    </modules>
+  </component>
+</project>

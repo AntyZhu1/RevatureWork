@@ -1,0 +1,39 @@
+.navbar {
+    background-color: rgba(123, 255, 123, 0.473);
+    overflow: hidden;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    float: left;
+    
+}
+
+.navbar li a{ 
+    display:block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size:large;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: wheat;
+    opacity: 1;
+}
+
+.navbar li a:active {
+    text-decoration: underline;
+    background-color: wheat;
+}

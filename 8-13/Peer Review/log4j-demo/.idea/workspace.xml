@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad6915f6-a749-4655-af96-a5619c2ac720" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo15localStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo16localStorageGetItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo17sessionStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo18MultiMedia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo19DragDrop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/demo9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/images/Revature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/images/audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/images/rev-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontEnd/HTML/images/video.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/StringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/main/java/StringExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/CounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/CounterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/StringExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/src/test/java/StringExampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/target/classes/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JUnit-Demo/target/test-classes/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JUnit-Demo/target/test-classes/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Projects/.idea/Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Projects/.idea/Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-jdbc-demo/java-jdbc-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-jdbc-demo/java-jdbc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wYFsHGVPjTaIsDms0d3DvNiQrD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="log4j-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad6915f6-a749-4655-af96-a5619c2ac720" name="Default Changelist" comment="" />
+      <created>1628627823323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628627823323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

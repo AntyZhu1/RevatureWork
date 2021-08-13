@@ -1,0 +1,50 @@
+.wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.wrapper table {
+    background-color: linen;
+    width: 100%;
+    border-collapse: collapse;
+    border: 4px brown;
+}
+.wrapper thead {
+    color:maroon;
+}
+
+.wrapper td, th{
+    font-size: 28px;
+    padding: 10px;
+    
+}
+
+header{
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(255, 166, 0, 0.418);
+}
+
+aside{
+    width: 25%;
+    min-height: 400px;
+    background-color: rgba(255, 192, 203, 0.658);
+    float: left;
+}
+
+section{
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    background-color: rgba(0, 128, 0, 0.589);
+}
+
+
+footer{
+    /* clear: both; */
+    width: 100%;
+    min-height: 200px;
+    background-color: rgba(0, 0, 255, 0.548);
+}
+

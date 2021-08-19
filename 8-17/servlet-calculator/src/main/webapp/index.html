@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+
+<style>
+	.calc {
+		width: 40%;
+		border: 1px solid #666;
+		margin: 0 auto;
+		padding: 20px;
+	}
+	
+	.calc table {
+	
+	border-style: solid;
+	border-color: 2px black;
+	padding: 12px;
+	
+	
+	
+	}
+	
+	.calc tr, td {
+		border-style: solid;
+		border-color: 1px black;
+		padding: 6px;
+	}
+
+
+</style>
+</head>
+<body>
+<div class = "calc">
+	
+	<h1>Calculator</h1>
+	<form action="calculate" method="post">
+	<table>
+	
+		<thead>
+			<tr>
+				<td colspan="3"><input type="text" id="result"/></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td colspan = "2"><input type="button" value="C " /></td>
+
+			</tr>
+			<tr>
+				<td><input type="button" value="+ " name = "plus"/></td>
+				<td><input type="button" value="1 " name = "1" /></td>
+				<td><input type="button" value="2 " name = "2" /></td>
+				<td><input type="button" value="3 " name = "3" /></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="- " name = "minus" /></td>
+				<td><input type="button" value="4 " name = "4" /></td>
+				<td><input type="button" value="5 " name = "5" /></td>
+				<td><input type="button" value="6 " name = "6" /></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="* " name = "multiply"/></td>
+				<td><input type="button" value="7 " name = "7"/></td>
+				<td><input type="button" value="8 " name = "8"/></td>
+				<td><input type="button" value="9 " name = "9"/></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="/ " name = "divide"/></td>
+				<td><input type="button" value="0 " name = "0" /></td>
+				<td colspan="2">
+					<input type="submit" value="Submit "/>
+				</td>
+				
+			</tr>						
+		</tbody>
+	
+	
+	
+	
+	
+	</table>
+	
+	</form>
+
+</div>
+</body>
+</html>

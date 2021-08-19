@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	.calculator {
+	
+	width: 1000px;
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Georama', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 100px;
+    border-radius: 7px;
+    padding-bottom: 60px;
+	
+	}
+	#btn {
+    background: rgb(100, 104, 112);
+    color:white;
+    font-size: 16px;
+    padding: 5px 30px;
+    border: 1px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+	}
+
+	#btn:hover {
+	    background-color: lightsteelblue;
+	    color: black;
+	}
+
+
+</style>
+</head>
+<body>
+
+	<div class = "calculator">
+	<h1>Calculator</h1>
+	
+	<table>
+			<tr>
+				<td>Enter First Number</td>
+				<td><input type="number" name="number_1" placeholder="0" /></td>
+			</tr>
+			<tr>
+				<td>Enter Second Number</td>
+				<td><input type="number" name="number_2" placeholder="0" /></td>
+			</tr>
+
+			<tr>
+				<td>Select Gender</td>
+				<td>
+					<input type="radio" name="user_function" value="plus"/> + &nbsp;&nbsp;
+					<input type="radio" name="user_function" value="minus"/> -
+					<input type="radio" name="user_function" value="multiply"/> * &nbsp;&nbsp;
+					<input type="radio" name="user_function" value="divide"/> /
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="Submit "/>
+				 </td>
+			</tr>
+		</table>
+	
+	</div>
+
+</body>
+</html>

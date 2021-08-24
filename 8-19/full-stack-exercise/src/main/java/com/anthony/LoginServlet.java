@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet{
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 
-		UserDAO userDao = UserDAOFactory.getEmployeeDao();
+		UserDAO userDao = UserDAOFactory.getUserDao();
 		
 		try {
 			List<User> users = userDao.getUsers();

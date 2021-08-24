@@ -16,12 +16,23 @@ public class LogoutServlet extends HttpServlet{
 		PrintWriter out = response.getWriter();
 		
 		request.getRequestDispatcher("style.html").include(request, response);
-		request.getRequestDispatcher("navbar.html").include(request, response);
+
 		
-		HttpSession session = request.getSession();
-		session.invalidate();
+		HttpSession session = request.getSession(false);
 		
-		out.print("<h1>You have logged out</h1>");
+		if (session != null) {
+			
+			session.invalidate();
+			request.getRequestDispatcher("navbar.html").include(request, response);
+			out.print("<h1>You have logged out</h1>");
+		}
+		else {
+			request.getRequestDispatcher("login.html").include(request, response);
+			out.print("<h1>You aren't logged in.</h1>");
+			
+
+		}
+
 		
 		out.close();
 	}

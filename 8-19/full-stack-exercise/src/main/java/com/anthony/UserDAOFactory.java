@@ -7,7 +7,7 @@ public class UserDAOFactory {
     private UserDAOFactory() {
     }
 
-    public static UserDAO getEmployeeDao() {
+    public static UserDAO getUserDao() {
         if (dao == null) {
             dao = new UserDAOImpl();
         }

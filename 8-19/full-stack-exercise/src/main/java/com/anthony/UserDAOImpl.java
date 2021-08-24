@@ -47,14 +47,15 @@ public class UserDAOImpl implements UserDAO{
 	}
 	
 	@Override
-	public int createUser(String username, String password) throws SQLException {
+	public int createUser(String username, String password, String nationality) throws SQLException {
 		
-		String request = "INSERT INTO users (username, password) Values (?, ?)";
+		String request = "INSERT INTO users (username, password, nationality) Values (?, ?, ?)";
 		
 		PreparedStatement ps = con.prepareStatement(request);
 		
 		ps.setString(1, username);
 		ps.setString(2, password);
+		ps.setString(3, nationality);
 
 		int i = ps.executeUpdate();
 		
@@ -88,11 +89,29 @@ public class UserDAOImpl implements UserDAO{
 		ResultSet out = ps.executeQuery();
 		
 		while (out.next()) {
-			User temp = new User(out.getInt(1), out.getString(2), out.getString(3));
+			User temp = new User(out.getInt(1), out.getString(2), out.getString(3), out.getString(4));
 			users.add(temp);
 		}
 		
 		return users;
+	}
+
+	@Override
+	public int updateUser(String username, String password, String nationality, String updater) throws SQLException {
+		String request = "UPDATE users SET username = ?, password = ?, nationality = ? WHERE username = ?";
+		
+		PreparedStatement ps = con.prepareStatement(request);
+		
+		ps.setString(1, username);
+		ps.setString(2, password);
+		ps.setString(3, nationality);
+
+		ps.setString(4, updater);
+		
+		int i = ps.executeUpdate();
+		
+		return i;
+				
 	}
 
 

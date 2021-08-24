@@ -61,5 +61,15 @@
 		<servlet-name>delete_user</servlet-name>
 		<url-pattern>/delete_user</url-pattern>	
 	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>list_user</servlet-name>
+		<servlet-class>com.anthony.ListUserServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>list_user</servlet-name>
+		<url-pattern>/list_user</url-pattern>	
+	</servlet-mapping>
 
 </web-app>

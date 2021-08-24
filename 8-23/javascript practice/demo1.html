@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <button onclick="btnOn()">On</button>
+    <button onclick="btnOff()">Off</button>
+
+    <img id = "img1" class="" src="off.png" alt="">
+
+    <script>
+        function btnOn() {
+            document.getElementById('img1').src = 'on.png';
+        }
+
+        function btnOff() {
+            document.getElementById('img1').src = 'off.png';
+        }
+
+    </script>
+    
+</body>
+</html>

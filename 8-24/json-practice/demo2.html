@@ -5,22 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
 </head>
 <body>
+    <button onclick="save()">Save Data</button>
+    <button onclick="read()">Read Data</button>
+    <h1 id= "result"></h1>
 
-    <form action="">
-        <div>
-            <label for="">Email</label>
-            <input type="text" name="" id="email">
-        </div>
-        <div>
-            <label for="">Password</label>
-            <input type="text" name="" id="password">
-        </div>
-        <input type="submit" value="">
-    </form>
-    <script src="js/demo2.js"></script>
-    
+
+    <script>
+
+        function save() {
+            var fullName = 'John Doe'
+            var data = {
+                id: 1,
+                firstName: "John",
+                lastName: "Doe",
+                email: "jdoe@gmail.com"
+            }
+            
+            localStorage.setItem('name', JSON.stringify(data))
+        }
+
+        function read() {
+            var data = localStorage.getItem('name')
+            console.log(data.firstName)
+            var data2 = JSON.parse(data)
+            document.getElementById('result').innerHTML = data2.firstName
+        }
+
+    </script>
 </body>
 </html>

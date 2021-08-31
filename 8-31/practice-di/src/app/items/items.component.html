@@ -1,0 +1,22 @@
+<h1>Items</h1>
+
+<table class="table table-bordered">
+
+    <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of items; index as i; first as f; last as l; even as e; odd as o"
+        [style.background]="e ? '#ccc' : '#fff'">
+        <td>{{ item.id }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.category }}</td>
+        <td>{{ item.price | currency }}</td>
+        </tr>
+    </tbody>
+</table>

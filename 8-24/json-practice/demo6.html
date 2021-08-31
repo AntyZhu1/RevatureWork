@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = "result"></h1>
+    <!-- <input type="radio" name="choice" id="First">First
+    <input type="radio" name="choice" id="Second">Second -->
+
+
+
+    <script>
+
+        function print(data) {
+            document.getElementById('result').innerHTML = data;
+        }
+
+        // function first() {
+        //     print('first')
+        // }
+
+        // function second() {
+        //     print('second')
+        // }
+
+        // first()
+        // second()
+
+        function addNumbers(a,b) {
+            let sum = a + b;
+            return sum;
+        }
+
+        let result = addNumbers(20,30)
+
+        print(result);
+
+    </script>
+    
+</body>
+</html>

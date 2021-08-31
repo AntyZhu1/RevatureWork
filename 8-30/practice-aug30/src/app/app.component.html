@@ -1,0 +1,18 @@
+<div class="main parent">
+
+  <h1>Counter</h1>
+
+  <table class="table table-dark">
+
+    <thead>
+      <tr>
+        <th>{{ message }}</th>
+      </tr>
+    </thead>
+
+  </table>
+  
+
+  <app-counter (childEvent)="message=$event" [childData] = "parentData"></app-counter>
+
+</div>

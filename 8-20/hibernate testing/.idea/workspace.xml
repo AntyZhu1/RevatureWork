@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b03225c5-ecef-4b1e-8b6d-1bc83e14e3fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/AddUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/AddUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/DeleteUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/DeleteUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/LogoutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UpdateUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UpdateUserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UserDAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UserDAOFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/build/classes/com/anthony/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/AddUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/AddUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/DeleteUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/DeleteUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UpdateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UpdateUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UserDAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UserDAOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/java/com/anthony/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/add_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/add_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/delete_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/delete_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/style.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/style.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/update_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-19/full-stack-exercise/src/main/webapp/update_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8-24/json-practice/demo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-24/json-practice/demo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8-24/json-practice/demo3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../8-24/json-practice/demo3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8-24/json-practice/js/demo2.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

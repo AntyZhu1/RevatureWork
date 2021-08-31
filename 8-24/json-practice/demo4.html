@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <button onclick="getData()">Get Data</button>
+    <div id= "result">
+
+    </div>
+
+    <script>
+
+        function getData() {
+            var request = new XMLHttpRequest();
+            request.open('GET', 'https://jsonplaceholder.typicode.com/posts', true)
+            request.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    // console.log(this.responseText)
+                    // document.getElementById('result').innerHTML = this.responseText;
+                    var response = this.responseText;
+                    var data = JSON.parse(response);
+                    // document.getElementById('result').innerHTML = data[0].title;
+
+                    var text = ''
+                    text += '<table><tr><th>Title</th><th>Body</th></tr>'
+                    for(var i = 0; i < data.length; i++) {
+                        text += '<tr><td>' + data[i].title + '</td><td>' + data[i].body + '</td></tr>'
+                    }
+                    text += '</table>'
+                    document.getElementById('result').innerHTML = text;
+                }
+                else if (this.status == 400) {
+                    console.error('Error')
+                }
+            }
+            request.send();
+        }
+
+    </script>
+
+</body>
+</html>

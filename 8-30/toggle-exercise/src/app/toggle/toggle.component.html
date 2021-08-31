@@ -1,0 +1,29 @@
+<h1>Employee List</h1>
+
+<div [hidden] = "isShow">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+               
+                <th>Id</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of items; trackBy: trackyById; index as i; first as f; last as l; even as e; odd as o"
+         [style.background]="e ? '#ccc' : '#fff'">
+               
+                <td>{{ item.id }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.category }}</td>
+                <td>{{ item.price }}</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+ <button class="btn btn-primary" (click)="toggleDisplay()" >Toggle Display</button>

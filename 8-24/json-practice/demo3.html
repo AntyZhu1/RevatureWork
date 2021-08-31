@@ -7,32 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <button onclick="save()">Save Data</button>
-    <button onclick="read()">Read Data</button>
-    <h1 id= "result"></h1>
-
+    
+    <h1>AJAX</h1>
+    <button onclick="onButtonClick()">Change Content</button>
+    <h1 id="result"></h1>
 
     <script>
+        function onButtonClick() {
 
-        function save() {
-            var fullName = 'John Doe'
-            var data = {
-                id: 1,
-                firstName: "John",
-                lastName: "Doe",
-                email: "jdoe@gmail.com"
+            //create xmlHttpRequest object
+            var xmlHttp = new XMLHttpRequest();
+
+            //instantiate request object
+            //open(method_type, url, async/sync)
+            xmlHttp.open('GET', 'data.txt', true)
+
+            //define event listener
+            xmlHttp.onreadystatechange = function() {
+                //check if the request was completed and was successful
+                if(this.readyState == 4 && this.status == 200) {
+                    // insert response from server into html element
+                    document.getElementById('result').innerHTML = this.responseText
+                }
             }
-            
-            localStorage.setItem('name', JSON.stringify(data))
-        }
+            //sending the request to the server
+            xmlHttp.send()
 
-        function read() {
-            var data = localStorage.getItem('name')
-            console.log(data.firstName)
-            var data2 = JSON.parse(data)
-            document.getElementById('result').innerHTML = data2.firstName
         }
-
     </script>
 </body>
 </html>
